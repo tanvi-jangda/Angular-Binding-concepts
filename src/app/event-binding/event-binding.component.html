@@ -1,0 +1,5 @@
+<hr>
+<h1> Demo of Event binding:</h1>
+<button [style.background-color]="'pink'" (click)="btnSubmit()">Submit</button>
+{{data}}
+<button (click)="btnSubmitNew($event)">Button with $event </button>
