@@ -6,6 +6,8 @@ import { StringInterpolationComponent } from './string-interpolation/string-inte
 import { StyleBindingComponent } from './style-binding/style-binding.component';
 import { ClassBindingComponent } from './class-binding/class-binding.component';
 import { EventBindingComponent } from './event-binding/event-binding.component';
+import { TwowaybindingComponent } from './twowaybinding/twowaybinding.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -13,10 +15,12 @@ import { EventBindingComponent } from './event-binding/event-binding.component';
     StringInterpolationComponent,
     StyleBindingComponent,
     ClassBindingComponent,
-    EventBindingComponent
+    EventBindingComponent,
+    TwowaybindingComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
