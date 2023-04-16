@@ -1,0 +1,7 @@
+<h1>Demo of Template reference variable:</h1>
+<h3>Enter your name:</h3>
+
+<!-- template reference variable -->
+<input type="text" #inputData>
+<button (click)="getData(inputData.value)">submit</button>
+{{str}}

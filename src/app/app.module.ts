@@ -8,6 +8,7 @@ import { ClassBindingComponent } from './class-binding/class-binding.component';
 import { EventBindingComponent } from './event-binding/event-binding.component';
 import { TwowaybindingComponent } from './twowaybinding/twowaybinding.component';
 import { FormsModule } from '@angular/forms';
+import { TemplatereferenceComponent } from './templatereference/templatereference.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FormsModule } from '@angular/forms';
     StyleBindingComponent,
     ClassBindingComponent,
     EventBindingComponent,
-    TwowaybindingComponent
+    TwowaybindingComponent,
+    TemplatereferenceComponent
   ],
   imports: [
     BrowserModule,
